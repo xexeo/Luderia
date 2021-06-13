@@ -1,0 +1,24 @@
+\chapter{A Loja}
+\label{chap:loja}
+
+A loja tem um funcionamento normal de loja que vende itens. As compras e vendas da loja são realizadas no caixa.
+
+O vendedor separa todas as compras e leva o cliente até o caixa, separando as compras em uma prateleira atrás do caixa.
+
+O vendedor pode também passar toda a compra em um cartão de consumo, que será pago no caixa depois.
+
+Toda compra tem que, obrigatoriamente, passar pelo caixa para verificação e retirada de eventuais equipamentos de segurança (RFID ou Magnética).
+
+Algumas funcionalidades obrigatórias:
+\begin{itemize}
+    \item vender itens e gerar a nota fiscal;
+    \item trocar item, que será transformado em um crédito para ser usado em outra venda, com notas fiscais;
+    \item verificar preço de item, mesmo no meio de uma venda;
+    \item remover item no meio de uma venda;
+    \item cancelar nota fiscal;
+    \item aceitar devolução de item, segundo a legislação ou prática da loja.
+\end{itemize}
+
+\rafael{Dúvida: a gente vai permitir o cliente comprar um jogo que ele esteja jogando com o garçom? Ou via tablet da mesa, ou via app? Não digo a cópia que ele está jogando, embora isso também possa ser implementado, mas digo o título, porque a pessoa pode pilhar em comprar o jogo e não querer descer pra ir lá comprar na hora.}
+
+\rafael{Dúvida 2: São lançado uns 20 jogos novos por mês. Como serão escolhidos os jogos que ganharão destaque nas prateleiras e vitrine de venda? Como rolará o sistema de precificação de jogos que estão com pouca saída? Haverá um alerta no sistema de tempos em tempos pra dizer que "tá na hora do jogo tal entrar em promoção?"? De quanto será o desconto calculado? Isso será feito em cima da margem? A gente precisa lembrar que se o jogo custa X pro cliente, ele custou 0,7X pra loja, normalmente. E uns 0,5X pra editora.}

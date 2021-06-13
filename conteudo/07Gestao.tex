@@ -1,0 +1,32 @@
+\chapter{Gestão}
+\label{chap:gestao}
+
+
+\section{Gestão dos Funcionários}
+
+O sistema de gestão dos funcionários não substitui sistemas de gestão tradicionais, tendo funcionalidades próprias de Luderia.
+
+
+O sistema deve suportar:
+\begin{itemize}
+    \item o registro de funcionários;
+    \item a alocação de funcionários a funções, possibilitando mais de uma função;
+    \item a alocação de horário de trabalho para os funcionários, indicando a função;
+    \item o registro de horas extras, via o trabalho de monitoria ou o trabalho normal, e
+    \item gestão de reclamações sobre os funcionários.
+\end{itemize}
+
+\section{Gestão dos jogos de aluguel}
+
+O sistema deve suportar:
+\begin{itemize}
+    \item manutenção do cadastro dos jogos;
+    \item indicação do estado do jogo, incluindo registro de peças faltando, peças substituídas;
+    \rafael{expansão?}
+    \item indicação que um jogo é extensão do outro;
+    \rafael{variante em que sentido? Tipo Ticket To Ride e TTR: Europa? É necessário isso? Talvez seja uma boa dizer se o jogo está em português ou em outro idioma. Ou se ele é "language dependent", pq vai que é algo meramente iconográfico e o monitor dá conta de explicar as regras. Se bem que o aluguel para a casa do cliente não contaria com essa "vantagem" de ter alguém para explicar o jogo.}
+    \item indicação que um jogo é variante de outro;
+    \rafael{No caso do BGG vc pode até dizer que o Board Game Stat faz isso. Ou seja, deve ter uma API pra isso fácil}
+    \item importação de informações do Board Game Geek;
+    \item armazenamento de PDFs relativos ao jogo, com identificação da utilidade;
+\end{itemize}
