@@ -9,6 +9,10 @@
 \usepackage{booktabs}
 \usepackage{enumitem}
 \usepackage{graphicx}
+\usepackage[scale=5]{ccicons}
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{5}
 \setlist{nosep}
 \usepackage[natbib,style=authoryear]{biblatex}
 \addbibresource{luderia.bib}
@@ -16,8 +20,9 @@
 \usepackage{hyperref}
 \cwnamedef{rafael}{blue}{Rafael}
 \cwnamedef{xexeo}{red}{Xexéo}
-
-
+\usepackage{titling} % construir página de title
+\predate{\centering}
+\postdate{\vfill\hfill\ccbyncsa\hfill}
 
 \title{\Huge Luderia}
 \author{\Large Geraldo Xexéo \\
@@ -28,8 +33,11 @@ com a colaboração de Rafael Monclair}
 
 \frontmatter
 
+
+
 \maketitle
 \tableofcontents
+\include{conteudo/00licenca}
 
 \mainmatter
 
