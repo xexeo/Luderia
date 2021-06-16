@@ -1,52 +1,57 @@
 \chapter{Bar e Restaurante}
 \label{chap:barest}
 
-O serviço de bar e restaurante funciona como qualquer serviço desse tipo, com possibilidade de atendimento por garçons ou auto-atendimento.
+O serviço de bar e restaurante funciona como qualquer serviço desse tipo, com  garçons.
 
-\section{Gorjeta}
+A Luderia fornece em seu cardápio de comidas: sanduíches, incluindo hambúrgueres e cachorros-quentes;  pizzas; beliscos, como batatas-fritas; e saladas.
+
+Como bebida ela oferece: sucos naturais, refrigerantes, cerveja e drinks. Opções não alcoólicas das cervejas e de alguns drinks estão disponíveis.
+
+Atualmente, na Luderia, o serviço é feito todo com comandas de papel. O desejo é substituir por um software de restaurante integrado ao software da Luderia.
+
+No mercado já existem muitos produtos que podem ser utilizados como inspiração para o software da Luderia.
+
+\section{Operação do bar/restaurante da Luderia}
+
+\subsection{Gorjeta}
 
 Todo o consumo de bar e restaurante sofre cobrança de 10\% ao pagar a conta, mesmo com auto-atendimento.
 
-\section{O cartão de consumo}
+\subsection{O cartão de consumo}
 
 O modelo atual é de cartão de consumo individual. Cada pessoa ao entrar recebe um cartão de consumo de papel e os garçons anotam o que foi consumido neles. Hoje isso permite que alguns pratos sejam divididos, porque o garçom pode anotar metade do valor (indicando 1/2 batata frita, por exemplo). Os garçons levam até uma calculadora barata para poder dividir com facilidade o valor.
 
-Isso será substituído por um modelo de plástico, com \textit{QR code}, com base de dados. Já foram comprados 1000 cartões numerados. A expectativa é que, ao receber um pedido, o garçom use a leitora de um terminal portátil e registre quem está pagando por cada pedido, ou cada grupo de pedidos. 
+
+\section{Operação Futura} 
+
+\subsection{Cartões de consumo}
+
+Os cartões de consumo serão substituídos por um cartão de plástico que se assemelha a um cartão de crédito, com \textit{QR code} e RFID. Cada cartão é numerado em relevo, a numeração é composta de 10 número, sendo que os quatro finais indicam o número real do cartão e os 6 primeiros são aleatórios.
+
+Já foram comprados 1000 cartões numerados. A expectativa é que, ao receber um pedido, o garçom use a leitora de um terminal portátil e registre quem está pagando por cada pedido. 
 
 
-\section{Terminais com os garçons e atendentes}
+\subsection{Terminais com os garçons e atendentes}
 
 Atendentes e garçons usarão no futuro um terminal de atendimento. Esse terminal permitirá fazer os pedidos e ler o QR code dos clientes, ou digitar os últimos 3 números (de 000 a 999). 
 
-\section{Terminais na mesa}
+\subsection{Cardápio digital do garçon}
 
+O garçom utiliza uma versão modificada do cardápio digital. Nela, as imagens só aparecem se solicitado em um botão, para mostrar ao cliente. Além disso, algumas funcionalidades estão habilitadas só para o garçom, que faz login no cardápio, como cancelar pedido.
+
+Um garçom tem acesso a todos os pedidos.
+
+
+\subsection{Terminais na mesa}
 
 Algumas mesas possuirão um terminal na mesa onde os clientes poderão fazer os pedidos por si, que serão entregues por cartão. O terminal é, na verdade, um tablet preso ao canto da mesa, que possui um cardápio, onde se lê o \textit{QR code} com a câmera. Ao contrário dos terminais dos garçons, não é possível digitar o código, para evitar o roubo de códigos.
 
-\section{App para clientes}
+\subsection{App para clientes}
 
 Há o interesse de ter um app que o cliente baixa e que se comunica com o sistema? Ele poderia não só consultar disponibilidade do jogo como ver um vídeo de regras rápidas, um faq do jogo, fazer pedidos que cairiam na cozinha, ou até fechar a conta dele. 
-
 Esse app poderia até "dar match" em pessoas que estão dentro da Luderia, ou que frequentam a Luderia e possuem um gosto por jogos parecidos. Porque tem vezes que a pessoa vai para Luderia e leva o cano dos amigos, ou ela está indo em dupla e quer conhecer que funcionem melhor para 4 pessoas.
 
-\section{Operações importantes de um sistema de consumo}
-
-Algumas operações que o sistema de atendimento deve suportar:
-\begin{itemize}
-    \item fazer um pedido, para uma pessoa;
-    \item fazer um pedido e dividir entre várias pessoas; 
-    \item cancelar um pedido;
-    \item anotar o motivo de cancelamento, com uma lista padrão (demorou demais, veio mal feito, pedido errado) e outros, e
-    \item anotar uma observação em um item do pedido.
-\end{itemize}
-
-Não há controle de mesa, como valor da conta da mesa, porém a cada pedido deve ser entrado o número da mesa onde está o jogador. No segundo pedido, o número da mesa será colocado automaticamente, mas poderá ser trocado.
-
-\section{Pagamento}
-
-No momento de pagamento, caso vários cartões sejam pagos juntos, se houver cobrança de ingresso ou consumo mínimo, a conta é feita para o grupo sendo pago. Por exemplo, se houver um consumo mínimo de R\$10 por pessoa e são 5 pessoas, o consumo mínimo é de R\$50 reais para o grupo. Mesmo que um cartão tenha gasto R\$50 e o resto tenha gasto zero, estará cumprida a exigência de consumo mínimo. \rafaelx{ Gostei. Queria que a Gob tivesse isso.}
-
-\section{Visão do futuro}
+\subsection{Mais sobre o futuro}
 
 A Luderia espera ter, no futuro, um cardápio digital. O cliente, na mesa, poderá navegar no cardápio digital e incluir itens em seu pedido. Para cada item poderá fazer uma anotação em texto (sem cebola, por exemplo). Alguns itens podem ter opções, como um hambúrguer pode ter opções que se excluem, como do tipo de proteína (bovina, suína, frango ou vegetariana), ou itens a colocar (opções múltiplas), como caixas para escolher se terá tomate, alface, cebola...
 
@@ -58,23 +63,80 @@ Outra opção disponível no cardápio e mostrar a conta atual do cliente, e per
 
 Para usar o cardápio digital, não é necessário fazer o login. O cliente se identificará na hora de confirmar o pedido no carrinho, por meio do cartão magnético, e indicando o número da mesa que está.
 
-\subsection{Cardápio digital do garçon}
+\section{Operações importantes de um sistema de consumo}
 
-O garçom utiliza uma versão modificada do cardápio digital. Nela, as imagens só aparecem se solicitado em um botão, para mostrar ao cliente. Além disso, algumas funcionalidades estão habilitadas só para o garçom, que faz login no cardápio, como cancelar pedido.
+Nesta descrição, um pedido, ou comanda, pode ser composto de vários itens.
 
-Um garçom tem acesso a todos os pedidos.
+Algumas operações que o sistema de atendimento deve suportar:
+\begin{itemize}
+    \item fazer um pedido, para uma pessoa;
+    \item fazer um pedido e dividir o custo entre várias pessoas; 
+    \item cancelar um pedido;
+    \item anotar o motivo de cancelamento, com uma lista padrão (demorou demais, veio mal feito, pedido errado) e outros, e
+    \item anotar uma observação em um item do pedido.
+\end{itemize}
 
-\subsection{Gestão do cardápio}
+Um pedido é feito primeiro colocando todos os itens e no final registrando para quem é o pedido. Cada item permite quantidade, anotações padronizadas pré-cadastrada e uma anotação livre, textual. Por exemplo, um item ``hambúrguer'' pode ter uma anotação pré-cadastrada chamada ``ponto'', com cinco valores possíveis:  bem passado, ao ponto para bem, ao ponto, ao ponto para mal, mal passado.
+Já um suco poderia ter opções do tipo ``sem açúcar'' ou ``sem gelo''.
+
+Não há controle de mesa, como valor da conta da mesa, porém, ao final de cada pedido deve ser entrado o número da mesa onde está o jogador. No segundo pedido, o número da mesa será colocado automaticamente, mas poderá ser trocado, caso o jogador tenha trocado de mesa.
+
+Os pedidos feitos serão direcionados ao bar ou a cozinha, de acordo com sua característica, onde serão preparados. 
+
+\section{Pagamento}
+
+No momento de pagamento, caso vários cartões sejam pagos juntos, se houver cobrança de ingresso ou consumo mínimo, a conta é feita para o grupo sendo pago. Por exemplo, se houver um consumo mínimo de R\$10 por pessoa e são 5 pessoas, o consumo mínimo é de R\$50 reais para o grupo. Mesmo que um cartão tenha gasto R\$50 e o resto tenha gasto zero, estará cumprida a exigência de consumo mínimo. \rafaelx{ Gostei. Queria que a Gob tivesse isso.}
+
+\subsection{Cartão de saída}
+Também foram comprados cartões de plástico, gravados com o logo da Luderia,  que servem de cartão de saída livre. Esses cartões são controlados pelo caixa, que os troca por cartões de consumo pago. Os cartões são numerados e só podem ser usados quando liberados pelo caixa.
+
+
+\section{Gestão do cardápio}
 
 Na gestão do cardápio, além de incluir e excluir itens e sub-itens (com opções múltiplas ou excludentes), deve ser também possível indicar que um item está esgotado.
 
 Alguns itens também podem ser ligados ao estoque e marcar esgotado automaticamente.
 
 
-\subsection{Cartão de saída}
-Também foram comprados cartões de plástico, gravados com o logo da Luderia,  que servem de cartão de saída livre. Esses cartões são controlados pelo caixa, que os troca por cartões de consumo pago. Os cartões são numerados e só podem ser usados quando liberados pelo caixa.
 
+\section{Outras ideias para o restaurante}
 
+Entrevistas realizadas por \citet{moreira:2018} mostraram que os  clientes de restaurantes gostariam de ter um aplicativo com as seguintes funcionalidades:
+\begin{outline}
+\1 pagar conta
+\2 com cartão de crédito
+\2 com \textit{pay-pal}
+\1 visualizar cardápio
+\2 ver preços
+\1 ver informações do pedido
+\2 ver hora do pedido feito
+\2 ver quando o pedido chega
+\2 ver o status do pedido
+\1 receber sugestões
+\1 ter um sistema de pontos para divulgação em redes sociais
+\1 poder indicar a satisfação, reclamar, sugerir e dar feedback
+\end{outline}
 
+\section{Processos de um restaurante}
+
+Segundo \citet{fonseca:2018}, citado por \citet{knock:2011}, os processos de um  restaurante deve seguir as seguintes etapas:
+\begin{itemize}
+    \item compras;
+    \item recebimento;
+    \item estocagem;
+    \item produção;
+    \item vendas, e 
+    \item contabilização.
+\end{itemize}
+
+Para mais informações sobre cada processo, consultar \citet{knock:2011}\footnote{\url{http://campeche.inf.furb.br/tccs/2012-I/TCC2012-1-15-PR-RafaelKnoch.pdf}}.
+
+\section{Software para analisar}
+
+É possível analisar a funcionalidade de alguns softwares, por exemplo:
+\begin{itemize}
+    \item Consumer - \url{https://www.programaconsumer.com.br/sistema-para-restaurantes}
+    \item software grátis para restaurante  \url{https://sourceforge.net/projects/softrestaurante/}
+\end{itemize}
 
 
